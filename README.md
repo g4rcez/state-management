@@ -2,7 +2,7 @@
 
 _This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)._
 
-## Getting Started
+## Setup
 
 First, install dependencies
 
@@ -12,7 +12,15 @@ npm install
 yarn
 ```
 
-Then, run the development server:
+Then, create your [NasaAPI Token](https://api.nasa.gov/) and your `.env` file
+
+```bash
+echo 'NASA_TOKEN={YOUR TOKEN HERE} >> .env'
+```
+
+## Development
+
+Run the development server:
 
 ```bash
 npm run dev
