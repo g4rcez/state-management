@@ -1,0 +1,12 @@
+.super-table {
+  border: 1px solid transparent;
+  border-collapse: collapse;
+}
+
+.super-table .th-resizer > div {
+  @apply flex gap-x-1;
+}
+
+.super-table th {
+  white-space: nowrap;
+}
